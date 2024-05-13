@@ -35,5 +35,5 @@ steps:
     sshEndpoint: 'YourSSHServiceConnection'
     runOptions: 'inline'
     inline: |
-      sudo service your_service_name restart
+      sudo service MSSQL$BCDEMO restart
   displayName: 'Restart Service on VM'
