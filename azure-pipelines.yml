@@ -32,7 +32,7 @@ steps:
 
 - task: SSH@0
   inputs:
-    sshEndpoint: 'YourSSHServiceConnection'
+    sshEndpoint: 'SSH'
     runOptions: 'inline'
     inline: |
       sudo service MSSQL$BCDEMO restart
